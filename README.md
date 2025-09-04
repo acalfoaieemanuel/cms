@@ -15,7 +15,10 @@ A lightweight **Content Management System (CMS)** built with **Next.js 15.5.2 (A
 ### Backend
 - **[.NET](https://dotnet.microsoft.com/)** – Minimal REST API  
 - **[Entity Framework Core](https://learn.microsoft.com/ef/core/)** – ORM for data access  
-- **[SQLite](https://www.sqlite.org/)** – Lightweight relational database  
+- **[SQLite](https://www.sqlite.org/)** – Lightweight relational database
+
+### Deployment
+- Azure CLI, Azure SWA, Web app 
 
 ## 📸 Preview
 
