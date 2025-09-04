@@ -5,9 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import ContentForm from "./content-form";
 
-interface EditorSidebarProps {}
-
-export default function EditorSidebar({}: EditorSidebarProps) {
+export default function EditorSidebar() {
   return (
     <Sheet>
       {/* Sidebar toggle */}

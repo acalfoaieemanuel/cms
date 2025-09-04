@@ -1,14 +1,16 @@
 ﻿using CMS.Shared.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace CMS.Data.Context;
 
-public class SqliteContext : DbContext
+public class SqliteContext(DbContextOptions<SqliteContext> options, IConfiguration configuration) : DbContext(options)
 {
-    public string Connection { get; } = "Data Source=..\\CMS.Data\\CSM.db";
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite(Connection);
+        var connectionString = configuration.GetConnectionString("MyDb");
+        optionsBuilder.UseSqlite(connectionString);
     }
-    public DbSet<Content> Contents { get; set; }
+    public DbSet<Content> Contents { get; set; } 
 }
