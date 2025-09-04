@@ -6,7 +6,7 @@ A lightweight **Content Management System (CMS)** built with **Next.js 14 (App R
 ## 🚀 Tech Stack
 
 ### Frontend
-- **[Next.js 14](https://nextjs.org/)** – React framework with server components & App Router  
+- **[Next.js 15.5.2](https://nextjs.org/)** – React framework with server components & App Router  
 - **[React Query](https://tanstack.com/query/latest)** – Server-state management for data fetching & mutations  
 - **[shadcn/ui](https://ui.shadcn.com/)** – Accessible, themeable UI components built on Radix and Tailwind  
 - **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS for styling  
