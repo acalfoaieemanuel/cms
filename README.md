@@ -1,6 +1,6 @@
 # 📝 CMS Dashboard
 
-A lightweight **Content Management System (CMS)** built with **Next.js 14 (App Router)**, **shadcn/ui**, and **React Query**, designed for creating, editing, and previewing content 
+A lightweight **Content Management System (CMS)** built with **Next.js 15.5.2 (App Router)**, **shadcn/ui**, and **React Query**, designed for creating, editing, and previewing content 
 
 ---
 ## 🚀 Tech Stack
